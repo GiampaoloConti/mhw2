@@ -1,0 +1,96 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+
+section.choice-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+img.checkbox{
+    justify-content: center;
+    width: 100%;
+}
+
+.choice-grid div{
+    width: 32.5%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #dcdcdc;
+    margin-bottom: 20px;
+  }
+
+.choice-grid img{
+    width:100%;
+}
+
+@media(max-width: 700px){
+    #info{
+        display: none;
+    }
+
+    article{
+        width: 95%;
+    }
+
+}
+
+@media(max-width: 500px){
+    .choice-grid div{
+        width: 49%;
+    }
+}
+
+.choice-grid .checked{
+    background-color: #cfe3ff;
+}
+
+.choice-grid .unchecked{
+    opacity: 0.6;
+}
+
+.hidden{
+
+    display: none;
+
+}
+
+.exit{
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom : 20px;
+}
+
+.TextExit{
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+button{
+    height: 50px;
+    width: 100%;
+}
+
+.one{
+    background-image: url('https://wallpaper.dog/large/20345644.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.question-name h1 {
+    background-color: rgba(3, 0, 1, 0.261);
+    color: white;
+}
+
+.two{
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b2434d52-5bf9-43b4-b9aa-cc5a28c70ab6/de2qwas-c85e5dad-dfd6-47b2-97ee-570467efe78d.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2IyNDM0ZDUyLTViZjktNDNiNC1iOWFhLWNjNWEyOGM3MGFiNlwvZGUycXdhcy1jODVlNWRhZC1kZmQ2LTQ3YjItOTdlZS01NzA0NjdlZmU3OGQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Q2RFcCtXiQeQbwjT5-w4T_HoLU6zGFxb6VGIdmLNW8A');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.three{
+    background-image: url('https://images5.alphacoders.com/113/1135882.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
